@@ -8,7 +8,10 @@ var pizza = {
     }
 }
 
-!function orderPizza() {
-    console.log(pizza)
-  }();
+console.log(pizza.crust);
+console.log(pizza.cheese);
+console.log(pizza.sauce);
 
+!function orderPizza() {
+    console.log(pizza.addToppings() )
+  }();
